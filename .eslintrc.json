@@ -1,0 +1,25 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": [
+        "eslint:recommended", 
+        "plugin:react/recommended"
+    ],
+    "rules": {
+        "no-undef": 1,
+        "no-unused-vars": 1,
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "indent": ["error", 4]
+    }
+}
